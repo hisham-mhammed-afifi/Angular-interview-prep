@@ -1,12 +1,23 @@
-import { Component } from '@angular/core';
+import { Component, inject, TemplateRef } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { MarkdownViewerComponent } from './markdown-viewer/markdown-viewer.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, MarkdownViewerComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styles: [],
 })
 export class AppComponent {
-  title = 'angular-interview';
+  private modalService = inject(NgbModal);
+
+  openTopicsModal(temp: TemplateRef<any>) {
+    this.modalService.open(temp, {
+      animation: true,
+      scrollable: true,
+      size: 'lg',
+      centered: true,
+    });
+  }
 }

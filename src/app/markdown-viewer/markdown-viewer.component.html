@@ -1,0 +1,8 @@
+@if (error()) {
+<div class="alert alert-danger m-3">
+  {{ error() | json }}
+</div>
+}
+
+<markdown [src]="filePath()" (load)="onLoad($event)" (error)="onError($event)">
+</markdown>
