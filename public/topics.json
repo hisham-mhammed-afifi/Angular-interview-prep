@@ -1,7 +1,44 @@
 [
   {
     "id": 1,
-    "name": "Angular",
-    "link": "./angular.md"
+    "title": "Angular Interview",
+    "description": "A collection of topics and resources for Angular interviews.",
+    "published": "2022-02-01T00:00:00.000Z",
+    "link": "./angular"
+  },
+  {
+    "id": 2,
+    "title": "Smart (container) vs. Dumb (presentational) components.",
+    "description": "An advanced guide to Smart (Container) vs. Dumb (Presentational) components, covering principles, patterns, and real-world strategies for scalable applications.",
+    "published": "2022-02-01T00:00:00.000Z",
+    "link": "./Smart (container) vs. Dumb (presentational) components"
+  },
+  {
+    "id": 3,
+    "title": "Dynamic and reusable component patterns.",
+    "description": "Dynamic and reusable component patterns in Angular are critical for building scalable, maintainable, and DRY (Don’t Repeat Yourself) applications. Let’s explore advanced techniques and patterns for creating dynamic and reusable components.",
+    "published": "2022-02-01T00:00:00.000Z",
+    "link": "./Dynamic and reusable component patterns"
+  },
+  {
+    "id": 4,
+    "title": "Component lifecycle hooks and their use cases (ngOnInit, ngOnChanges, ngOnDestroy).",
+    "description": "Angular component lifecycle hooks provide a way to tap into the lifecycle events of a component or directive as Angular creates, updates, or destroys them.",
+    "published": "2022-02-01T00:00:00.000Z",
+    "link": "./Component lifecycle hooks and their use cases (ngOnInit, ngOnChanges, ngOnDestroy)"
+  },
+  {
+    "id": 5,
+    "title": "Angular's Change Detection Mechanism.",
+    "description": "By understanding Angular's change detection mechanism, you can build highly performant applications while maintaining consistency between your data model and the UI.",
+    "published": "2022-02-01T00:00:00.000Z",
+    "link": "./Angular's Change Detection Mechanism"
+  },
+  {
+    "id": 6,
+    "title": "Strategies Default vs. OnPush.",
+    "description": "Mastering Angular’s Change Detection Strategies (Default and OnPush) involves understanding their mechanics, recognizing when to use each, and leveraging best practices for performance optimization. Here’s a practical, step-by-step guide to mastering these strategies.",
+    "published": "2022-02-01T00:00:00.000Z",
+    "link": "./Strategies Default vs. OnPush"
   }
 ]

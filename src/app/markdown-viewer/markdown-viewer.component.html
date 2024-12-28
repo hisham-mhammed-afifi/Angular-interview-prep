@@ -4,5 +4,9 @@
 </div>
 }
 
-<markdown [src]="filePath()" (load)="onLoad($event)" (error)="onError($event)">
+<markdown
+  [src]="filePath() + '.md'"
+  (load)="onLoad($event)"
+  (error)="onError($event)"
+>
 </markdown>

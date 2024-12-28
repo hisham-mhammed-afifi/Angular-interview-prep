@@ -2,8 +2,14 @@ import { HttpClient, provideHttpClient } from '@angular/common/http';
 import { ApplicationConfig, provideZoneChangeDetection } from '@angular/core';
 import { provideRouter, Routes } from '@angular/router';
 import { provideMarkdown, MERMAID_OPTIONS } from 'ngx-markdown';
+import { MarkdownViewerComponent } from './markdown-viewer/markdown-viewer.component';
 
-export const routes: Routes = [];
+export const routes: Routes = [
+  {
+    path: ':title',
+    component: MarkdownViewerComponent,
+  },
+];
 
 export const appConfig: ApplicationConfig = {
   providers: [
